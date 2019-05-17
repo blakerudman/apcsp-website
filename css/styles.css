@@ -1,7 +1,44 @@
 html,
 	body {
 	
-	background-color: #bfd7ff;
+	background-color: #444444;
+	color: #f2f2f2;
 	
-	
+	}
+
+	div {
+
+	overflow: hidden;
+	background-color: #333333;
+
+	}
+
+	a {
+
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+
+	}
+
+	a:hover:not(.active) {
+
+	color: #d4e3fc;
+
+	}
+
+	tr:hover {
+
+	background-color: #f2f2f2;
+	color: #222222;
+
+	}
+
+	table, th, td {
+
+	border: 1px solid white;
+	border-collapse: collapse;
+
 	}
